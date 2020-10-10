@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mavenprj:war">
+    <output-path>$PROJECT_DIR$/../mavenprj/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mavenprj</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mavenprj.war">
+      <element id="artifact" artifact-name="mavenprj:war exploded" />
+    </root>
+  </artifact>
+</component>
